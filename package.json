@@ -22,10 +22,7 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fbellos/uoc-hhc-II-pec1.git"
-  },
+  
   "author": {
     "name": "Felipe Bello",
     "email": "fbellos@uoc.edu"
