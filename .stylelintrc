@@ -1,0 +1,6 @@
+{
+    "extends": ["stylelint-config-recommended-scss"],
+    "rules": {
+        "block-opening-brace-space-before": "always" // Asegura que haya un espacio antes de la llave de apertura {
+    }
+}

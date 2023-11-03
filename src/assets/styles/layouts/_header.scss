@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 3em;
+    margin: auto;
+    font-weight: bolder;
+    border-bottom: 2px solid $uoc-red;
+  }
+  .menu__item {
+    display: none;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    list-style-type: none;
+  }
+  
+  @media all and (min-width: $mqMinWidth) {
+    .menu__item {
+      display: block;
+      order: 1;
+      width: auto;
+    }
+  }
+  
